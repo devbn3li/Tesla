@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+    background-color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px 20px;
+}
+
+.header {
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #000000;
+}
+
+.header .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.header nav ul {
+    display: flex;
+    padding: 10px;
+}
+
+.header nav ul li a {
+    padding: 10px;
+    display: block;
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 3;
+}
+
+.header nav ul li a.active,
+.header nav ul li a:hover {
+    color: white;
+}
+
+.login{
+    border: #ffffff 1px solid;
+    border-radius: 20px;
+}
+/* end header */
+.home {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.home-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+.big-text {
+    word-wrap: normal;
+    font-size: 70px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.word {
+    width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.start-selling {
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+.home-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.black-text {
+    color: #000000;
+    padding: 1px 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 24px;
+    line-height: 1px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.img1 img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+/* home */
+.container {
+    display: grid;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.text2 {
+    font-size: small;
+    margin: 10px;
+}
+
+.text1 {
+    font-size: large;
+    margin: 10px;
+}
+
+.bold {
+    color: #ffffff;
+}
+
+.buy {
+    color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    padding: 0px 15px;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botm-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small{
+    font-size: small;
+    align-items: center;
+    display: inherit;
+    color: #636363;
+}
+
+.rock {
+    font-size: small;
+    color: #636363;
+    display: flex;
+}
+
+.card {
+    background-color: #202020;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    height: 250px;
+    line-height: 1px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.card img {
+    border-radius: 10px;
+    height: 155px;
+    width: 200px;
+}
+
+.first-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sec-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    border: 1px solid #868686;
+    margin: 40px 10px 10px 10px;
+}
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    height: 55px;
+    border-radius: 53px;
+    background-color: #1e1e1e;
+    line-height: 0px;
+    width: 200px;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.profile img {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.profile .name {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.profile .name p {
+    margin: 15px 0px 6px 0px;
+}
+.profile .job {
+    font-size: 15px;
+    color: #636363;
+}
+
+.details {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-prof {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sec-prof {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-ben {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.img2 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.benefites-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.benefite {
+    display: flex;
+    color: #ffffff;
+    width: 29%;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.larg-ben {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.small-ben {
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.logos {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+}
