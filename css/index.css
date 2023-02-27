@@ -318,7 +318,7 @@ body {
 
 .logos {
     display: flex;
-    margin-bottom: 20px;
+    margin: 100px 0px;
     justify-content: space-between;
 }
 
